@@ -1,0 +1,39 @@
+input{
+    outline-style: dotted;
+    color: rgba(255, 0, 0, 0.371);
+}
+.form{
+    max-width: 700px;
+    min-width: 500px;
+    margin: auto;
+    background-color: #00000058;
+    box-shadow: 2px 2px 17px 2px #0bff0b;
+}
+@media (max-width: 720px) {
+    .form{
+        max-width: 500px;
+        min-width: 500px;
+        margin: auto;
+    }
+}
+.status{
+    padding: 10px 20px;
+    border-radius: 10px;
+    letter-spacing: 2pc;
+    visibility: hidden;
+}
+.dashboard{
+    text-decoration: none;
+    color: black;
+}
+
+.container{
+    background-image: url('wallpaperflare.com_wallpaper.jpg');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+a{
+    text-decoration: none;
+    color: white;
+}
